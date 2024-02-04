@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the body */
+body {
+    background-color: #f4f4f4;
+    /* background-image: url('Abhinav.jpg'); */
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header section */
+header {
+    text-align: left;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    position: relative;
+}
+#parah{
+    font-size: 20px;
+}
+#headerName{
+    text-align: left;
+    font-size: 300px;
+    margin-bottom: 10px;
+}
+/* Style the profile picture */
+#profilepicture{
+    border-radius: 50%;
+    position: absolute;
+    right: 50px;
+    top: 52px;
+    width: 214px;
+  /* aspect-ratio: initial; */
+    height: 255px;
+
+}
+
+/* Style the about section */
+.about {
+    padding: 20px;
+    text-align: center;
+}
+.about p{
+    margin: 15px 0;
+}
+/* Style the hobbies and projects sections */
+.hobbies, .projects {
+    background-color: #fff;
+    padding: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+.hobbies p,h2{
+    margin-bottom: 10px;
+}
+/* Style the individual project boxes */
+.project {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color:#f4f4f4 ;
+    width: 50%;
+}
+.project-heading{
+    margin-bottom: 15px;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Make links look like buttons */
+a {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Style the link on hover */
+a:hover {
+    background-color: #555;
+}
+#name,#roll,#department,#group{
+    padding: 0 10px;
+}
+table{
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+#profile{
+    text-align:left;
+}
+#git{
+   text-align: left;
+}
